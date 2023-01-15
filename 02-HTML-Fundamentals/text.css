@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   /* border: 5px solid black; */
@@ -9,7 +10,7 @@ body {
 }
 .product {
   border: 3px solid black;
-  width: 825px;
+  width: 1200px;
   margin: 50px auto;
   position: relative;
 }
@@ -170,4 +171,16 @@ button:hover {
   background-color: transparent;
   color: black;
   border: 1px solid black;
+}
+.product-img {
+  width: 400px;
+  float: left;
+}
+.product-price {
+  width: 400px;
+  float: left;
+}
+.product-desc {
+  width: 400px;
+  float: right;
 }
