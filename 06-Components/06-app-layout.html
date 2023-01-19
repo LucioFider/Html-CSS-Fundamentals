@@ -60,6 +60,23 @@
       }
       section {
         background-color: #f1f3f5;
+        padding: 40px;
+
+        /*How elements that don't show appear*/
+        overflow: scroll;
+
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+      }
+      .email {
+        background-color: #dee2e6;
+        height: 96px;
+        flex-shrink: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       aside {
         background-color: #f1f3f5;
@@ -75,7 +92,18 @@
       <button>Mark Unread</button>
       <button>Trash</button>
     </menu>
-    <section>Inbox</section>
+    <section>
+      <div class="email">Email 1</div>
+      <div class="email">Email 2</div>
+      <div class="email">Email 3</div>
+      <div class="email">Email 4</div>
+      <div class="email">Email 5</div>
+      <div class="email">Email 6</div>
+      <div class="email">Email 7</div>
+      <div class="email">Email 8</div>
+      <div class="email">Email 9</div>
+      <div class="email">Email 10</div>
+    </section>
     <main>Email</main>
     <aside>Additional Info</aside>
   </body>
